@@ -80,9 +80,13 @@ int GCDVerify(int a, int b)
 
 執行結果:V1
 
+![image](https://raw.githubusercontent.com/andyneko/HW20180326/master/1.jpg)
+
 遇到的問題:使用%來求餘數進行輾轉相除法行運算時發生crash 
 
 問題原因:運算時發生1/0的運算導致程式crash
+
+![image](https://raw.githubusercontent.com/andyneko/HW20180326/master/2.jpg)
 
 修改後版本
 
@@ -165,6 +169,7 @@ int GCDVerify(int a, int b)
 
 修改後執行結果
 
+![image](https://raw.githubusercontent.com/andyneko/HW20180326/master/3.jpg)
 
 心得:
 
